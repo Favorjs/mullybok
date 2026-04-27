@@ -57,7 +57,7 @@
     animation:scroll 38s linear infinite;
     width:max-content;
   }
-  .marquee span::before{content:"❄";margin-right:.7rem;color:var(--amber)}
+  .marquee span::before{content:"•";margin-right:.7rem;color:var(--amber)}
   @keyframes scroll{
     from{transform:translateX(0)}
     to{transform:translateX(-50%)}
@@ -481,7 +481,7 @@
     overflow:hidden;
   }
   .contact::before{
-    content:"❄";
+    content:"";
     position:absolute;
     top:-30px;right:-20px;
     font-size:280px;
@@ -943,7 +943,7 @@
           </div>
           <div>
             <div class="info-label">Open Hours</div>
-            <div class="info-value">Mon – Sun • 8:00 AM – 7:00 PM<br>Sundays — closed</div>
+            <div class="info-value">Mon – Sun <br></div>
           </div>
         </div>
       </div>
